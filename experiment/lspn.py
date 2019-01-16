@@ -7,7 +7,7 @@ from spn.sum_node import SumNode
 from spn.product_node import ProductNode, mult
 from spn.normal_leaf_node import NormalLeafNode
 from spn.multi_normal_leaf_node import MultiNormalLeafNode
-from threading import Pool
+
 def run_incremental_lspn(train_files, dtype=np.float32, batch_size=100):
 	for train_file in train_files:
 		obs = np.loadtxt(train_file, delimiter=",", dtype=dtype)

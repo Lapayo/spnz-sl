@@ -6,7 +6,7 @@ import numpy as np
 
 from spn.spn import *
 from util.util import *
-from experiment import Experiment, ILSPN_Experiment
+from .experiment import Experiment, ILSPN_Experiment
 
 
 from spn.sum_node import SumNode
